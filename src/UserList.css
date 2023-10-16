@@ -1,0 +1,36 @@
+/* User List styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border: 1px solid #ddd; /* Add borders to table headers */
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    padding: 8px;
+    text-align: left;
+    border-left: 1px solid #ddd; /* Add left border to data cells */
+    border-right: 1px solid #ddd; /* Add right border to data cells */
+  }
+  
+  td:first-child {
+    border-left: none; /* Remove left border for the first data cell */
+  }
+  
+  td:last-child {
+    border-right: none; /* Remove right border for the last data cell */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+  }
